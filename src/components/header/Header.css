@@ -1,0 +1,115 @@
+
+
+.cont-header-menu-nav{
+    padding-top: 20px;
+   
+    display: flex;
+}
+
+/** Logo start*/
+.cont-logo-principal-header {
+    display: flex;
+    width: 25%;
+}
+.logo-principal-header {
+    width: 35px;
+}
+
+/** Logo end*/
+
+
+/** Opciones de Menu start*/
+.cont-menu-navegacion {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.opciones-nav{
+    padding: 0;
+    display:flex;
+    list-style: none;
+    gap: 15px;
+
+    user-select: none;
+
+}
+
+.opcion-nav{
+    font-family: 'Lato';
+    cursor: pointer;
+    font-size: clamp(16px, calc(1px + 2vw), 18px);
+    font-weight: 500;
+}
+
+
+
+/** Opciones de Menu end*/
+
+
+/** Botones Login y Registrarse start*/
+.cont-btns-login-registro {
+    display: flex;
+    width: 25%;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+}
+
+.opcion-login{
+    font-family: 'Lato';
+    user-select: none;
+    cursor: pointer;
+}
+
+#btn-registrarse{
+    border: none;
+    background-color: var(--azul);
+    color: white;
+    font-family: 'Lato';
+    user-select: none;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 12px;
+}
+/** Botones Login y Registrarse end*/
+
+
+/** Botones menu mobile start*/
+.cont-btn-menu-mobile{
+    display: none;
+}
+
+.btn-menu-mobile {
+    width: 35px;
+}
+/** Botones menu mobile end*/
+
+
+
+@media (max-width:660px){
+    .cont-logo-principal-header {
+
+        width: 50%;
+    }
+    .cont-btns-login-registro{
+        display: none;
+    }
+    .cont-menu-navegacion{
+        display: none;
+    }
+
+    .cont-btn-menu-mobile{
+        display: flex;
+        width: 50%;
+       justify-content: end;
+     
+    }
+    .btn-menu-mobile{
+        
+       cursor: pointer;
+    }
+
+}
