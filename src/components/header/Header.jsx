@@ -62,8 +62,8 @@ function Header() {
 
                     {/**---- Contenedor  login y registrate start --------- */}
                     <div className="cont-btns-login-registro">
-                            <span className='opcion-login' onClick={irALogin}>Log in</span>
-                            <button id='btn-registrarse' onClick={irARegistrarse} >Registrarse</button>
+                            <span className='opcion-login growth' onClick={irALogin}>Log in</span>
+                            <button id='btn-registrarse' className='growth' onClick={irARegistrarse} >Registrarse</button>
                     </div>
 
                     {/**---- Contenedor  login y registrate end --------- */}
