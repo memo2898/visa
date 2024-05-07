@@ -19,13 +19,30 @@ body {
 }
  
 
-h1 h2 h3 h4 span ul li button{
+h1 h2 h3 h4 span ul li button p{
   font-family: 'Lato';
 }
 
-.cont-margenes-laterales-1{
+.cont-margenes-laterales-1 {
+  margin-left: calc(10px + 4vw);
+  margin-right: calc(10px + 4vw);
+}
 
-  margin-left: 3%;
-  margin-right: 3%;
+@media (min-width: 1600px) {
+  .cont-margenes-laterales-1 {
+    margin-left: calc(5% + 4vw);
+    margin-right: calc(5% + 4vw);
+  }
+}
 
+.btn-generico-1{
+  font-family: 'Lato';
+  font-weight: 700;
+  border: none;
+  padding-left: min(12px + 12vw, 40px);
+  padding-right: min(12px + 12vw, 40px);
+  padding-top: min(12px + 12vw, 15px);
+  padding-bottom: min(12px + 12vw, 15px);
+  border-radius: min(12px + 12vw, 10px);
+  cursor: pointer;
 }
