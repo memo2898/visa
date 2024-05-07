@@ -4,6 +4,7 @@ import React from 'react'
 import './MenuLateralMobile.css'
 import logoBlanco from '../../assets/Logos/SVG/logoVisa_Blanco.svg'
 import ico_close from '../../assets/Iconos/SVG/ico_close.svg'
+import OpcionesMenu from './OpcionesMenu'
 
 function MenuLateralMobile({isOpen, manejador}) {
 
@@ -33,6 +34,15 @@ function MenuLateralMobile({isOpen, manejador}) {
                 {/**----- Contenedor btn cerrar end -------- */}
           </div>
           {/**----- Contenedor superior start -------- */}
+
+              {/**---- Contenedor Menu Navegacion start ------*/}
+               <div className="cont-menu-navegacion-mobile">
+                    {/**-----Menu de Navegacion start--- */}
+                        <OpcionesMenu/>
+                    {/**-----Menu de Navegacion end --- */}
+              </div>
+
+              {/**---- Contenedor Menu Navegacion end ------*/}
       </div>
     </div>
       :

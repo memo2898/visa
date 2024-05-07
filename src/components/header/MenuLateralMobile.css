@@ -23,3 +23,30 @@
     cursor: pointer;
 
 }
+
+.cont-menu-navegacion-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (max-width:660px){
+    .opciones-nav {
+        margin-top:29px ;
+        flex-direction: column;
+        color: white;
+        gap: 35px;
+        
+    }
+
+    .opcion-nav{
+        font-family: 'Lato';
+        cursor: pointer;
+        font-size: clamp(25px, calc(1px + 2vw), 28px);
+        font-weight: 500;
+    }
+
+}

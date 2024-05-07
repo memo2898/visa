@@ -5,6 +5,8 @@ import logo from '../../assets/Logos/SVG/logoVisa.svg'
 import iconoMenu from '../../assets/Iconos/SVG/menu-bar-ico.svg'
 import OpcionesMenu from './OpcionesMenu'
 import MenuLateralMobile from './MenuLateralMobile'
+import { Link } from 'react-router-dom'
+
 
 //Este contiene el menu header
 function Header() {
@@ -43,7 +45,9 @@ function Header() {
         
                     {/**----- Contenedor logo start -------- */}
                     <div className="cont-logo-principal-header">
-                        <img className="logo-principal-header" src={logo} alt="Logo principal" />
+                        <Link to="/">
+                            <img className="logo-principal-header" src={logo} alt="Logo principal" />
+                        </Link>
                     </div>
                     {/**----- Contenedor logo end -------- */}
 
