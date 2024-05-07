@@ -100,6 +100,16 @@
     box-shadow: rgba(170, 170, 170, 0.7) 1px 1px 8px 1px;
 }
 
+.cont-redes-sociales{
+    
+    display: flex;
+    width: 95%;
+    position: absolute;
+    top: calc(10% - 20px);
+    justify-content: end;
+
+   
+}
 @media (max-width:660px){
 
     .cont-izquerda-azul{

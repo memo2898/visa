@@ -1,0 +1,17 @@
+.cont-socialmedia1{
+
+    display: flex;
+    flex-direction: column;
+    gap: min(2px + 2vw, 20px);
+}
+
+.cont-item-socialmedia1{
+    width: calc(10px + 2.4vw);
+    min-width: 36px;
+}
+.item-socialmedia1{
+    width: 100%;
+    cursor: pointer;
+    ;
+}
+

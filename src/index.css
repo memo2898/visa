@@ -46,3 +46,7 @@ h1 h2 h3 h4 span ul li button p{
   border-radius: min(12px + 12vw, 10px);
   cursor: pointer;
 }
+
+.growth:hover{
+  transform: scale(1.08);
+}
