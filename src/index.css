@@ -27,12 +27,23 @@ h1 h2 h3 h4 span ul li button p{
   margin-left: calc(10px + 4vw);
   margin-right: calc(10px + 4vw);
 }
+.cont-margenes-laterales-2 {
+  margin-left: calc(10px + 7vw);
+  margin-right: calc(10px + 7vw);
+}
 
 @media (min-width: 1600px) {
   .cont-margenes-laterales-1 {
-    margin-left: calc(5% + 4vw);
-    margin-right: calc(5% + 4vw);
+    margin-left: calc(8% + 4vw);
+    margin-right: calc(8% + 4vw);
   }
+
+  .cont-margenes-laterales-2 {
+    margin-left: calc(8% + 7vw);
+    margin-right: calc(8% + 7vw);
+  }
+
+
 }
 
 .btn-generico-1{
@@ -46,7 +57,49 @@ h1 h2 h3 h4 span ul li button p{
   border-radius: min(12px + 12vw, 10px);
   cursor: pointer;
 }
+.btn-generico-2{
+  font-family: 'Lato';
+  font-weight: 700;
+  border: none;
+  padding-left: min(12px + 12vw, 25px);
+  padding-right: min(12px + 12vw, 25px);
+  padding-top: min(12px + 12vw, 15px);
+  padding-bottom: min(12px + 12vw, 15px);
+  border-radius: min(12px + 12vw, 10px);
+  cursor: pointer;
+}
 
 .growth:hover{
+  transition: all 0.1s;
   transform: scale(1.08);
+
+}
+.growth:not(hover){
+  transition: all 0.4s;
+}
+
+
+.titulos{
+    font-family: 'Myriad-Pro-Bold-Condesed';
+    font-size: clamp(27px, (2px + 2vw), 50px);
+}
+
+
+
+.fondo-azul{
+    background-color: var(--azul);
+    color: white;
+}
+
+.letra-azul{
+  color: #303F89;
+}
+
+
+
+.img5 {
+  object-fit: cover;
+  width: calc(20px + 67%);
+  min-width: 160px;
+  max-width: 22rem;
 }

@@ -1,0 +1,224 @@
+.cont-titulo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.cont-cards-dobles-servicios {
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+
+.item-card-servicio {
+    background: linear-gradient(150deg, #f3f3f3, #ffffff, #ffffff, #f3f3f3);
+    border-radius: min(10px + 12vw, 19px);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+    display: flex;
+    flex: 1;
+    
+
+ 
+
+    height: calc(10rem + 5vw);
+    width: 100%;
+    
+    
+}
+
+
+.img-card-servicio {
+    width: 12rem;
+}
+
+.titulo-card-servicio {
+    font-family: 'Lato';
+    font-size: clamp(12px, (1px + 4vw), 20px);
+    margin: 0;
+}
+
+.card-servicio-lado-izquierdo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-evenly;
+
+    padding-left: min(14px + 2vw, 35px);
+    padding-right: min(14px + 2vw, 35px);
+    padding-top: min(14px + 2vw, 10px);
+    padding-bottom: min(14px + 2vw, 10px);
+
+    
+}
+.card-servicio-lado-derecho {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.cont-texto-parrafo-card-servicio{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.parrafo-card-servicio {
+
+    font-family: 'Lato';
+    font-size: clamp(10px, (1px + 1.2vw), 13px);
+
+}
+
+.cont-cards-dobles-servicios{
+    margin-top: clamp(12px, (1px + 4vw), 20px);
+    margin-bottom: clamp(12px, (1px + 4vw), 24px);
+    gap: clamp(12px,(1px + 4vw), 24px);
+}
+
+.cont-img1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: calc(10px + 17vw);
+    min-width: 160px;
+    max-width: 250px;
+
+}
+
+
+.cont-img2{
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+ 
+
+}
+.img2 {
+    height: 100%;
+    /* width: calc(10px + 13vw); */
+    width: calc(10px + 9vw); 
+    min-width: 150px;
+    object-fit: cover;
+}
+
+
+
+.fondo-azul-degradado{
+    background: linear-gradient(120deg, #232C57, #232C57, #2F3E89, #2F3E89);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+    color: #f3f3f3;
+   
+}
+
+
+
+/*
+.cont-img3{
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+ 
+
+}
+.img3 {
+    height: 100%;
+ 
+    width: calc(10px + 16vw); 
+    min-width: 200px;
+    object-fit: cover;
+}*/
+
+
+.cont-img3{
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.img3 {
+
+    object-fit: cover;
+    width: calc(20px + 67%);
+    min-width: 160px;
+    max-width: 22rem;
+}
+
+
+.fondo-rojo-degradado{
+    background: linear-gradient(120deg, #B92437, #B92437, #D51B32, #D51B32);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+    color: #f3f3f3;
+   
+}
+
+
+.cont-img4{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.img4 {
+
+    object-fit: cover;
+    width: calc(20px + 20%);
+    min-width: 66px;
+    max-width: 8rem;
+}
+
+
+
+.cont-cards-vertical-servicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: clamp(12px,(1px + 4vw), 20px);
+    margin-bottom: clamp(12px,(1px + 4vw), 24px);
+    gap: clamp(12px,(1px + 4vw), 24px);
+}
+
+
+.cont-hijo-lado-derecho{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.cont-img5 {
+
+
+    flex: 1;
+    height: 100%;
+    background-image: url('../../assets/Imagenes/familia.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cont-img6 {
+
+
+    flex: 1;
+    height: 100%;
+    background-image: url('../../assets/Imagenes/comp.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
