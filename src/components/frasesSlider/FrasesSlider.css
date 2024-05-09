@@ -1,0 +1,81 @@
+.slider-container{
+    background-image: url('../../assets/Imagenes/EstrellaFondoAzul.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ 
+
+    margin-top: 3rem;
+    background-color: var(--azul);
+    width: 100%;
+    height: calc(100px + 35vw);
+
+}
+
+
+/**===========================Estilos del slider*/
+
+
+
+.slick-next:before {
+    content:none;
+
+}
+.slick-prev:before {
+    content:none;
+
+}
+
+.flechita{
+    width: calc(10px + 2.5vw);
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+
+.cont-contenido-slider{
+    
+    height: calc(100px + 30vw);
+
+  
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-lafrase-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.lafrase-slider {
+    color: white;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: clamp(14px, (1px + 2vw), 50px);
+    width: 70%;
+    font-style: italic;
+}
+
+.autor-star {
+    font-family: 'Myriad-Pro-Bold-Condesed';
+    font-size: clamp(18px, (2px + 2vw), 50px);
+    color: white;
+}
+
+
+.cont-autor-stars{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    gap: 6px;
+}
+.star-autor{
+    width: calc(5px + 1.3vw);
+}

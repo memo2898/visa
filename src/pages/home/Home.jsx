@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../../components/header/Header'
 import Mural from '../../components/mural/Mural'
 import ProductosServicios from '../../components/productos_servicios/ProductosServicios'
-import SliderFrases from '../../components/sliderFrases/SliderFrases'
+import FrasesSlider  from '../../components/frasesSlider/FrasesSlider'
 
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
         <ProductosServicios/>
 
     {/**Seccion 3 */}
-      <SliderFrases/>
+      <FrasesSlider/>
 
         
   
