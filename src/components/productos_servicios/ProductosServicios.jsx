@@ -115,13 +115,13 @@ function ProductosServicios() {
                 </div>
             {/**----------------Contenedor cards Dobles servicios end   ----------------- */}
             {/**----------------Contenedor cards vertical servicios start ----------------- */}
-            <div className="cont-cards-vertical-servicios">
+            <div className="cont-cards-dobles-servicios mobile-column">
 
 
 
                     
                     {/**Item card start */}
-                    <div className="item-card-servicio">
+                    <div className="item-card-servicio2">
                                 <div className="card-servicio-lado-izquierdo">
                                     <h2 className="titulo-card-servicio letra-azul">Formularios de Reunificación Familiar</h2>
 
@@ -143,7 +143,7 @@ function ProductosServicios() {
                         </div>
                     {/**Item card end */}
                                         {/**Item card start */}
-                                        <div className="item-card-servicio fondo-azul-degradado">
+                                        <div className="item-card-servicio2 fondo-azul-degradado">
                                 <div className="card-servicio-lado-izquierdo">
                                     <h2 className="titulo-card-servicio">Formularios DS160</h2>
 

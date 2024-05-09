@@ -3,9 +3,11 @@ import React from 'react'
 import Header from '../../components/header/Header'
 import Mural from '../../components/mural/Mural'
 import ProductosServicios from '../../components/productos_servicios/ProductosServicios'
+import SliderFrases from '../../components/sliderFrases/SliderFrases'
 
 
 function Home() {
+
   return (
  <>
 
@@ -17,6 +19,10 @@ function Home() {
         
     {/**Seccion 2 */}
         <ProductosServicios/>
+
+    {/**Seccion 3 */}
+      <SliderFrases/>
+
         
   
  </>

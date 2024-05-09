@@ -1,0 +1,6 @@
+.cont-slider-frases{
+    margin-top: 3rem;
+    background-color: var(--azul);
+    width: 100vw;
+    height: calc(100px + 35vw);
+}

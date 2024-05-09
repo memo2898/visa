@@ -28,6 +28,17 @@
     
 }
 
+.item-card-servicio2 {
+    background: linear-gradient(150deg, #f3f3f3, #ffffff, #ffffff, #f3f3f3);
+    border-radius: min(10px + 12vw, 19px);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+    display: flex;
+    flex: 1;
+    height: calc(10rem + 5vw);
+    width: 100%;
+    min-width: 25rem;
+}
+
 
 .img-card-servicio {
     width: 12rem;
@@ -222,3 +233,15 @@
 }
 
 
+@media (max-width:660px){
+    .item-card-servicio2 {
+      
+         min-width: 100%; 
+    }
+
+    .mobile-column {
+      
+        display: flex ;
+        flex-direction: column;
+      }
+}
