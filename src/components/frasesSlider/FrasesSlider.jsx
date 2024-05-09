@@ -50,6 +50,10 @@ function SampleNextArrow(props) {
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: true,
+      //rtl: true, // Cambiar dirección a derecha a izquierda
+      autoplaySpeed: 2200,
+      speed: 1000,
       nextArrow: <SampleNextArrow className={"growth"}/>,
       prevArrow: <SamplePrevArrow />
     };

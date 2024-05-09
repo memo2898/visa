@@ -1,0 +1,39 @@
+
+
+.cont-testimonios-comp {
+
+    padding-top: min(12px + 12vw, 15px);
+    padding-bottom: min(12px + 12vw, 15px);
+    padding-left: min(12px + 15vw, 30px);
+    padding-right: min(12px + 15vw, 30px);
+
+    height: calc(100px + 35vw);
+}
+.titulo-testimonio {
+    font-family: 'Lato';
+    font-size: clamp(12px, (1px + 4vw), 20px);
+}
+
+.parrafo-testimonio {
+    font-family: 'Lato';
+    font-size: clamp(10px, (1px + 1.2vw), 13px);
+}
+
+
+
+.cont-frase-stars {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.frase-azul {
+    color: var(--azul);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: clamp(13px, (1px + 2vw), 25px);
+   
+    font-style: italic;
+margin: 0;
+}

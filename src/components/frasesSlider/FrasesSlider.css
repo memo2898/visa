@@ -79,3 +79,41 @@
 .star-autor{
     width: calc(5px + 1.3vw);
 }
+
+
+.slick-next:hover  img {
+    transition: all 0.1s;
+    transform: scale(1.08);
+}
+
+.slick-next:not(hover) {
+    transition: all 0.4s;
+}
+.slick-prev:hover img {
+    transition: all 0.1s;
+    transform: scale(1.08);
+}
+
+.slick-prev:not(hover) {
+    transition: all 0.4s;
+}
+
+
+
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: rgb(233, 230, 230);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
