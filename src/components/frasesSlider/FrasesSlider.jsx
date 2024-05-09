@@ -25,7 +25,7 @@ function SampleNextArrow(props) {
 
         onClick={onClick}
       >
-          <img src={flechaDerecha} className="flechita"/>
+          <img src={flechaDerecha} className="flechita growth"/>
       </div>
     );
   }
@@ -39,7 +39,7 @@ function SampleNextArrow(props) {
 
           onClick={onClick}
         >
-            <img src={flechaIzquierda} className="flechita"/>
+            <img src={flechaIzquierda} className="flechita growth"/>
         </div>
     );
   }
@@ -50,7 +50,7 @@ function SampleNextArrow(props) {
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      nextArrow: <SampleNextArrow/>,
+      nextArrow: <SampleNextArrow className={"growth"}/>,
       prevArrow: <SamplePrevArrow />
     };
     return (
