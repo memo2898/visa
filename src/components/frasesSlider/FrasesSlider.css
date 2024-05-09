@@ -57,7 +57,7 @@
     color: white;
     text-align: center;
     font-family: 'Lato';
-    font-size: clamp(14px, (1px + 2vw), 50px);
+    font-size: clamp(16px, (1px + 2vw), 50px);
     width: 70%;
     font-style: italic;
 }

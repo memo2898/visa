@@ -1,0 +1,93 @@
+.card-perfil {
+    padding-left: min(12px + 12vw, 40px);
+    padding-right: min(12px + 12vw, 40px);
+    padding-top: min(12px + 12vw, 30px);
+    padding-bottom: min(12px + 12vw, 30px);
+
+
+
+    width: calc(20px + 26vw);
+    height: 200px;
+    background-color: #F0F2F4;
+    border-radius: min(12px + 12vw, 20px);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+}
+
+.ico-principal {
+    width: calc(5px + 2vw);
+    min-width: 30px;
+}
+
+
+.cont-parrafo-card {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.parrafo-card-tes {
+    font-family: 'Lato';
+    font-size: clamp(10px, (1px + 1.2vw), 13px);
+}
+
+
+.cont-img-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-img-c{
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.img-card-perfil{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.cont-textos-strellas-c{
+    display: flex;
+    flex-direction: column;
+}
+.cont-estrellas{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.estrellita-card{
+    width: 18px;
+}
+
+.nombre-card {
+    font-family: 'Lato';
+    font-size: clamp(10px, (1px + 1.3vw), 16px);
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.subtitulo-card{
+    font-family: 'Lato';
+    font-size: clamp(10px, (1px + 1.2vw), 13px);
+}
+
+
+
+
+@media (max-width: 900px){
+    .card-perfil{
+        width: calc(20px + 20vw);
+        height: 200px;
+    }
+}
+@media (max-width: 700px){
+    .card-perfil{
+        width: calc(20px + 40vw);
+        height: 200px;
+    }
+}
