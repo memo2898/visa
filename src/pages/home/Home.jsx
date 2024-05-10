@@ -6,7 +6,8 @@ import ProductosServicios from '../../components/productos_servicios/ProductosSe
 import FrasesSlider  from '../../components/frasesSlider/FrasesSlider'
 import Testimonios from '../../components/testimonios/Testimonios'
 import '../home/Home.css'
-import TestComponent from '../../components/test/TestComponent'
+import Footer from '../../components/footer/Footer'
+
 
 function Home() {
 
@@ -32,6 +33,8 @@ function Home() {
           <Testimonios/>
       </div>
       
+    {/**Seccion 6 - Footer */}
+        <Footer/>
 
   
  </>

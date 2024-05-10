@@ -12,6 +12,6 @@
 .item-socialmedia1{
     width: 100%;
     cursor: pointer;
-    ;
+    max-width: 55px;
 }
 

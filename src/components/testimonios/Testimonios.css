@@ -7,7 +7,7 @@
     padding-left: min(12px + 15vw, 30px);
     padding-right: min(12px + 15vw, 30px);
 
-    height: calc(100px + 35vw);
+    /*height: calc(100px + 35vw);*/
 }
 .titulo-testimonio {
     font-family: 'Lato';
