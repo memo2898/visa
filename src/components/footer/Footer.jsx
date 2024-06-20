@@ -10,6 +10,7 @@ import ico_twitter from '../../assets/Iconos/SVG/btn-ico-twitter-blanco.svg'
 
 import { Link } from 'react-router-dom'
 
+
 function Footer() {
 
    const fecha = new Date();
@@ -22,9 +23,10 @@ function Footer() {
         {/**----Terminos de uso ------ */}
             <div className="cont-term-pol-preg">
               
-                    <span className="item_term growth">Términos de Uso </span>
-                    | <span className="item_term growth"> Políticas de Privacidad </span>
-                    | <span className="item_term growth"> Preguntas Frecuentes</span>
+              
+                    <Link to='/terminos_uso'><span className="item_term growth">Términos de Uso </span></Link>
+                    |  <Link to='/politicas_privacidad'><span className="item_term growth"> Políticas de Privacidad </span></Link>
+                    |  <Link to='/preguntas_frecuentes'><span className="item_term growth"> Preguntas Frecuentes</span></Link>
       
             </div>
         {/**----Terminos de uso ------ */}
