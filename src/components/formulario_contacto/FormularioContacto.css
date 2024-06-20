@@ -1,0 +1,88 @@
+.cont-input-elementos{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cont-input-elementos span{
+    font-family: 'Lato';
+    font-size: clamp(12px, (1px + 1.2vw), 15px);
+    line-height: 26px;
+    font-weight: 600;
+}
+.cont-input-elementos input{
+    
+        /* border: none; */
+        border: solid 1px #BCC3CC;
+        height: 30px;
+        border-radius: 5px;
+        user-select: none;
+
+    
+}
+
+.cont-formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.cont-doble-input{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cont-unico-input {
+    display: flex;
+    flex: 1;
+}
+
+.cuerpoForm{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.btn-form {
+    font-family: 'Lato';
+    font-weight: 700;
+    border: none;
+    padding-left: min(12px + 12vw, 40px);
+    padding-right: min(12px + 12vw, 40px);
+    padding-top: min(12px + 12vw, 15px);
+    padding-bottom: min(12px + 12vw, 15px);
+    border-radius: min(12px + 12vw, 10px);
+    cursor: pointer;
+    color:white;
+    background-color: var(--azul);
+  
+}
+
+.basic-textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    resize: vertical; /* Permite cambiar el tamaño solo verticalmente */
+}
+
+.cont-btn-f{
+
+
+    display: flex;
+}
+
+@media (max-width:660px){
+
+    .cont-btn-f{
+        width: 100%;
+
+        display: flex;
+    }
+
+    .btn-form {
+        width: 100%;
+    }
+}

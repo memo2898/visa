@@ -8,7 +8,7 @@ import imagenEstatua from '../../assets/Imagenes/estatua.png'
 import Cuadrito from './Cuadrito'
 
 import mision from '../../assets/Imagenes/SVG/mision_claro.svg'
-import vision from '../../assets/Imagenes/SVG/mision_oscuro.svg'
+import vision from '../../assets/Imagenes/SVG/vision_oscuro.svg'
 import valores from '../../assets/Imagenes/SVG/valores_claro.svg'
 function Nosotros() {
 
