@@ -64,4 +64,77 @@ width: 50%;
 .cont-cuadritos-colores{
     display: flex;
     justify-content: center;
+    margin-top: -5rem;
+    gap: calc(10px + 2vw);
+}
+
+.cont-sup-texto-ico {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-cuadrito {
+
+
+    border-radius: min(10px + 12vw, 19px);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+    display: flex;
+    height: 17.2rem;
+    width: 11rem;
+    padding: 1.5rem;
+    flex-direction: column;
+}
+
+
+.rojo{
+    background: linear-gradient(120deg, #B92437, #B92437, #D51B32, #D51B32);
+}
+
+.blanco{
+    background: white;
+}
+
+
+.azul{
+    background: linear-gradient(120deg, #232C57, #232C57, #2F3E89, #2F3E89);
+}
+
+.texto-c-titulo {
+    /*Estilos generales de los textos*/
+    font-family: 'Lato';
+   font-weight: 700;
+}
+
+.parrafo-cuadrito{
+    font-family: 'Lato';
+    font-size: clamp(12px, (1px + 1vw), 15px);
+    line-height: 20px;
+}
+
+.claro{
+    color: #ffffff;
+}
+
+.img-c {
+    width: 20px;
+}
+@media (max-width:822px){
+    .cont-cuadritos-colores{
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+    
+    .item-cuadrito {
+      
+        width: 71%;
+        height: 20rem;
+    }
+    .parrafo-cuadrito{
+        font-family: 'Lato';
+        font-size: clamp(14px, (1px + 1vw), 15px);
+        line-height: 26px;
+    }
 }

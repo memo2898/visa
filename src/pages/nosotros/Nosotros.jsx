@@ -6,7 +6,13 @@ import '../nosotros/Nosotros.css'
 
 import imagenEstatua from '../../assets/Imagenes/estatua.png'
 import Cuadrito from './Cuadrito'
+
+import mision from '../../assets/Imagenes/SVG/mision_claro.svg'
+import vision from '../../assets/Imagenes/SVG/mision_oscuro.svg'
+import valores from '../../assets/Imagenes/SVG/valores_claro.svg'
 function Nosotros() {
+
+  
   return (
     <>
            <>
@@ -48,23 +54,36 @@ function Nosotros() {
         <div className="cont-cuadritos-colores">
           {/**Cuadrito item start*/}
               <Cuadrito
-                titulo="Visa"
+                titulo="Misión"
                 tipoCuadrito={'rojo'}
-                imgCuadrito={'img'}
+                imgCuadrito={mision}
+                parrafoCuadrito={'Proveer un servicio integral y eficiente para la gestión de visas americanas, facilitando el proceso para nuestros clientes mediante asesoramiento personalizado, innovación tecnológica y un compromiso inquebrantable con la satisfacción del cliente.'}
               />
           {/**Cuadrito item end*/}
           {/**Cuadrito item start*/}
               <Cuadrito
-                titulo="Visa"
+                titulo="Visión"
                 tipoCuadrito={'blanco'}
-                imgCuadrito={'img'}
+                imgCuadrito={vision}
+                parrafoCuadrito={'Ser la empresa líder y referente en la gestión de visas americanas a nivel global, reconocida por nuestra excelencia en el servicio al cliente, la transparencia en nuestros procesos y nuestra capacidad de adaptación a las cambiantes necesidades del mercado.'}
+
               />
           {/**Cuadrito item end*/}
           {/**Cuadrito item start*/}
               <Cuadrito
-                titulo="Visa"
+                titulo="Valores"
                 tipoCuadrito={'azul'}
-                imgCuadrito={'img'}
+                imgCuadrito={valores}
+                parrafoCuadrito={
+                  <ul className='lista-'>
+                    <li>Integridad</li>
+                    <li>Innovación</li>
+                    <li>Compromiso con el Cliente</li>
+                    <li>Responsabilidad</li>
+                    <li>Transparencia</li>
+                  </ul>
+                }
+
               />
           {/**Cuadrito item end*/}
         </div>
