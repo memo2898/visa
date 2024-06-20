@@ -3,13 +3,15 @@ import React from 'react'
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 
-function TerminosUso() {
+function Login() {
   return (
     <>
-        <Header/>
-        <Footer/>
-    </>
+    <Header/>
+    login
+    <Footer/>
+    
+</>
   )
 }
 
-export default TerminosUso
+export default Login

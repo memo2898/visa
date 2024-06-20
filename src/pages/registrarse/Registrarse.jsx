@@ -3,13 +3,16 @@ import React from 'react'
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 
-function TerminosUso() {
+
+function Registrarse() {
   return (
     <>
-        <Header/>
-        <Footer/>
-    </>
+    <Header/>
+    Registrarse
+    <Footer/>
+    
+</>
   )
 }
 
-export default TerminosUso
+export default Registrarse

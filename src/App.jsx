@@ -14,6 +14,8 @@ import P404 from './pages/404/P404';
 import TerminosUso from './pages/terminos_uso/TerminosUso';
 import PoliticasPrivacidad from './pages/politicas_privacidad/PoliticasPrivacidad';
 import PreguntasFrecuentes from './pages/preguntas_frecuentes/PreguntasFrecuentes';
+import Login from './pages/login/Login';
+import Registrarse from './pages/registrarse/Registrarse';
 
 //? USARÉ APP PARA ENRUTADOR
 function App() {
@@ -32,6 +34,10 @@ function App() {
           <Route path='/nosotros' element={<Nosotros/>}></Route>
           <Route path='/servicios' element={<Servicios/>}></Route>
           <Route path='/contactos' element={<Contactos/>}></Route>
+
+          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/registrarse' element={<Registrarse/>}></Route>
+
           <Route path='/terminos_uso' element={<TerminosUso/>}></Route>
           <Route path='/politicas_privacidad' element={<PoliticasPrivacidad/>}></Route>
           <Route path='/preguntas_frecuentes' element={<PreguntasFrecuentes/>}></Route>

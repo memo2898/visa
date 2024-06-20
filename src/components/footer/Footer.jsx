@@ -41,9 +41,16 @@ function Footer() {
 
          {/**---- Redes sociales start ------ */}
          <div className="cont-term-pol-preg">
+
+            <Link to="https://www.facebook.com/">
                 <img src={ico_facebook} className="item-socialmedia2 growth" />
+            </Link>
+            <Link to="https://www.instagram.com/">
                 <img src={ico_instagram} className="item-socialmedia2 growth" />
+            </Link>
+            <Link to="https://www.x.com/">
                 <img src={ico_twitter} className="item-socialmedia2 growth" />
+            </Link>
 
          </div>
          {/**---- Redes sociales end ------ */}

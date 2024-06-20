@@ -29,12 +29,7 @@ function Header() {
     }
 
 
-    const irALogin = () =>{
-        alert("Ir a Login")
-    }
-    const irARegistrarse = () =>{
-        alert("Ir a registrarse")
-    }
+ 
 
     
   return (
@@ -62,8 +57,12 @@ function Header() {
 
                     {/**---- Contenedor  login y registrate start --------- */}
                     <div className="cont-btns-login-registro">
-                            <span className='opcion-login growth' onClick={irALogin}>Log in</span>
-                            <button id='btn-registrarse' className='growth' onClick={irARegistrarse} >Registrarse</button>
+                        <Link to='/login'>
+                            <span className='opcion-login growth'>Log in</span>
+                        </Link>
+                        <Link to='/registrarse'>
+                            <button id='btn-registrarse' className='growth'  >Registrarse</button>
+                        </Link>
                     </div>
 
                     {/**---- Contenedor  login y registrate end --------- */}
