@@ -16,9 +16,24 @@
 
 body {
   margin: 0;
+  height: 100%;
 }
  
 
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+
+
+a{
+  text-decoration: none ;
+  color: inherit;
+
+}
 h1 h2 h3 h4 span ul li button p{
   font-family: 'Lato';
 }
@@ -103,3 +118,6 @@ h1 h2 h3 h4 span ul li button p{
   min-width: 160px;
   max-width: 22rem;
 }
+
+
+

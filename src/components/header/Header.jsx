@@ -47,7 +47,7 @@ function Header() {
                     <div className="cont-logo-principal-header">
                         <Link to="/">
                             <img className="logo-principal-header" src={logo} alt="Logo principal" />
-                        </Link>
+                        </Link> 
                     </div>
                     {/**----- Contenedor logo end -------- */}
 

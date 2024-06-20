@@ -11,7 +11,7 @@
     background-color: var(--azul);
     height: calc(30px + 35vw);
     min-height: 20rem;
-    max-height: 50rem;
+    max-height: 40rem;
     width: 55%;
     border-top-left-radius:min(12px + 12vw, 40px); 
     border-bottom-left-radius:min(12px + 12vw, 40px); 
@@ -24,7 +24,7 @@
     background: linear-gradient(150deg, #f3f3f3, #ffffff, #ffffff, #f3f3f3);
     height: calc(30px + 35vw);
     min-height: 20rem;
-    max-height: 50rem;
+    max-height: 40rem;
     border-radius: min(12px + 12vw, 40px);
     
         /**¿Quiza deba colocar el max?*/

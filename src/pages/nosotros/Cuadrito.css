@@ -1,0 +1,21 @@
+.item-cuadrito {
+
+
+    border-radius: min(10px + 12vw, 19px);
+    box-shadow: rgba(170, 170, 170, 0.2) 1px 1px 8px 1px;
+    display: flex;
+    height: 17rem;
+    width: 14rem;
+}
+.rojo{
+    background: linear-gradient(120deg, #B92437, #B92437, #D51B32, #D51B32);
+}
+
+.blanco{
+    background: white;
+}
+
+
+.azul{
+    background: linear-gradient(120deg, #232C57, #232C57, #2F3E89, #2F3E89);
+}

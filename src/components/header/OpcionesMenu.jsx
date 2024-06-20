@@ -1,18 +1,27 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const prueba = ()=>{
-  alert("Ironico")
-}
+
 
 function OpcionesMenu() {
   return (
     <ul className='opciones-nav'>
-    <li className="opcion-nav growth" onClick={prueba}>Inicio</li>
-    <li className="opcion-nav growth">Nosotros</li>
-    <li className="opcion-nav growth">Servicios</li>
-    <li className="opcion-nav growth">Contacto</li>
-</ul>
+          <Link to={'/'}>
+            <li className="opcion-nav growth">Inicio</li>
+          </Link>
+
+          <Link to={'/nosotros'}>
+            <li className="opcion-nav growth">Nosotros</li>
+          </Link>
+          <Link to={'/servicios'}>
+            <li className="opcion-nav growth">Servicios</li>
+          </Link>
+          <Link to={'/contactos'}>
+            <li className="opcion-nav growth">Contactos</li>
+          </Link>
+
+    </ul>
   )
 }
 
