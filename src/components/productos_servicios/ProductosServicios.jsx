@@ -27,9 +27,7 @@ function ProductosServicios() {
                                     <h2 className="titulo-card-servicio letra-azul">Calificación para Visa</h2>
 
                                     <div className="cont-texto-parrafo-card-servicio">
-                                            <p className="parrafo-card-servicio">Lorem ipsum dolor sit amet, 
-                                                consectetur adipiscing elit, 
-                                                sed do eiusmod tempor.</p>
+                                            <p className="parrafo-card-servicio">Ofrecemos asesoramiento y evaluación para determinar si cumples con los requisitos necesarios para obtener una visa de no inmigrante a los EE.UU.</p>
                                     </div>
                                     
                                     
@@ -47,9 +45,7 @@ function ProductosServicios() {
                                     <h2 className="titulo-card-servicio">Formularios DS160</h2>
 
                                     <div className="cont-texto-parrafo-card-servicio">
-                                            <p className="parrafo-card-servicio">Lorem ipsum dolor sit amet, 
-                                                consectetur adipiscing elit, 
-                                                sed do eiusmod tempor.</p>
+                                            <p className="parrafo-card-servicio">Formulario de solicitud en línea para obtener una visa de no inmigrante en EE.UU. , necesaria para viajes temporales por turismo, negocios o estudios.</p>
                                     </div>
                                     
                                     
@@ -75,9 +71,7 @@ function ProductosServicios() {
                                     <h2 className="titulo-card-servicio">Formularios i130</h2>
 
                                     <div className="cont-texto-parrafo-card-servicio">
-                                            <p className="parrafo-card-servicio">Lorem ipsum dolor sit amet, 
-                                                consectetur adipiscing elit, 
-                                                sed do eiusmod tempor.</p>
+                                            <p className="parrafo-card-servicio">Permite a ciudadanos y residentes de EE.UU. solicitar la residencia permanente para un familiar extranjero, validando su relación familiar.</p>
                                     </div>
                                     
                                     
@@ -97,9 +91,7 @@ function ProductosServicios() {
                                     <h2 className="titulo-card-servicio letra-azul">Consulta Virtual</h2>
 
                                     <div className="cont-texto-parrafo-card-servicio">
-                                            <p className="parrafo-card-servicio">Lorem ipsum dolor sit amet, 
-                                                consectetur adipiscing elit, 
-                                                sed do eiusmod tempor.</p>
+                                            <p className="parrafo-card-servicio">Programa una consulta virtual para recibir orientación personalizada sobre tus trámites migratorios desde la comodidad de tu hogar.</p>
                                     </div>
                                     
                                     
@@ -126,9 +118,8 @@ function ProductosServicios() {
                                     <h2 className="titulo-card-servicio letra-azul">Formularios de Reunificación Familiar</h2>
 
                                     <div className="cont-texto-parrafo-card-servicio">
-                                            <p className="parrafo-card-servicio">Lorem ipsum dolor sit amet, 
-                                                consectetur adipiscing elit, 
-                                                sed do eiusmod tempor.</p>
+                                            <p className="parrafo-card-servicio">
+                                            Los formularios de Reunificación Familiar en EE.UU. permiten a ciudadanos y residentes permanentes solicitar la inmigración de sus familiares</p>
                                     </div>
                                     
                                     
@@ -145,12 +136,10 @@ function ProductosServicios() {
                                         {/**Item card start */}
                                         <div className="item-card-servicio2 fondo-azul-degradado">
                                 <div className="card-servicio-lado-izquierdo">
-                                    <h2 className="titulo-card-servicio">Formularios DS160</h2>
+                                    <h2 className="titulo-card-servicio">Consulta Presencial</h2>
 
                                     <div className="cont-texto-parrafo-card-servicio">
-                                            <p className="parrafo-card-servicio">Lorem ipsum dolor sit amet, 
-                                                consectetur adipiscing elit, 
-                                                sed do eiusmod tempor.</p>
+                                            <p className="parrafo-card-servicio">Agenda una consulta presencial con uno de nuestros expertos para discutir tus necesidades migratorias y recibir asistencia directa .</p>
                                     </div>
                                     
                                     

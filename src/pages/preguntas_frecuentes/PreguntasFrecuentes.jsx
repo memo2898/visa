@@ -7,6 +7,15 @@ function PreguntasFrecuentes() {
   return (
     <>
     <Header/>
+    <section className="main-content-terminos">
+        <div className="cont-margenes-laterales-2">
+         
+            <div className="cont-titulo">
+                        <div className='titulos'>Preguntas Frecuentes</div>
+            </div>
+         </div>
+ 
+        </section>
     <Footer/>
 </>
   )
