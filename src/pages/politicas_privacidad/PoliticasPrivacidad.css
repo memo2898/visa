@@ -12,6 +12,6 @@
 
 .elemento-lista{
     font-family: 'Lato';
-    font-size: clamp(12px, (1px + 2.8vw), 18px);
+    font-size: clamp(12px, (1px + 2.8vw), 18.1px);
     font-weight: 300;
 }
