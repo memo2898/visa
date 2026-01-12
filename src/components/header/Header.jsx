@@ -49,7 +49,7 @@ function Header() {
                     {/**---- Contenedor Menu Navegacion start ------*/}
                     <div className="cont-menu-navegacion">
                         {/**-----Menu de Navegacion start--- */}
-                            <OpcionesMenu/>
+                          
                         {/**-----Menu de Navegacion end --- */}
                     </div>
 
@@ -57,12 +57,14 @@ function Header() {
 
                     {/**---- Contenedor  login y registrate start --------- */}
                     <div className="cont-btns-login-registro">
-                        <Link to='/login'>
+
+                          <OpcionesMenu/>
+                        {/* <Link to='/login'>
                             <span className='opcion-login growth'>Log in</span>
                         </Link>
                         <Link to='/registrarse'>
                             <button id='btn-registrarse' className='growth'  >Registrarse</button>
-                        </Link>
+                        </Link> */}
                     </div>
 
                     {/**---- Contenedor  login y registrate end --------- */}

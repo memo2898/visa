@@ -13,177 +13,222 @@ function TerminosUso() {
         <div className="cont-margenes-laterales-2">
          
             <div className="cont-titulo">
-                        <div className='titulos'>Términos de Uso</div>
+                <div className='titulos'>Términos y Condiciones de Uso</div>
             </div>
 
-
-          <div className="cont-terminos">
+            <div className="cont-terminos">
                 {/**Ultima Actualizacion start */}
-                <p className="text-parrafos"><strong>Última actualización: </strong>21 Junio 2024</p>
+                <p className="text-ultima-actualizacion">
+                    <strong>Última actualización:</strong> 21 de junio de 2024
+                </p>
                 {/**Ultima Actualizacion end */}
-<br />
-<br />
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>1. Aceptación de los Términos</h2>
-                <p className="text-parrafos">Al acceder y utilizar el sitio web de Visas United State(VisasUS) (el "Sitio"), usted acepta cumplir y estar sujeto a los siguientes Términos de Uso. Si no está de acuerdo con estos Términos, no utilice el Sitio ni los servicios proporcionados por Visas United State(VisasUS).</p>
-                {/**Acápite end */}
+
+                {/**Acápite 1 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>1. Aceptación de los Términos</h2>
+                    <p className="text-parrafos">
+                        Al acceder y utilizar el sitio web de Visas United State (VisasUS) (el "Sitio"), usted acepta cumplir y quedar legalmente obligado por los presentes Términos y Condiciones.
+                    </p>
+                    <p className="text-parrafos">
+                        Si no está de acuerdo con estos Términos, no debe utilizar el Sitio ni los servicios ofrecidos.
+                    </p>
+                </div>
+                {/**Acápite 1 end */}
                 
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>2. Descripción del Servicio</h2>
-                <p className="text-parrafos">Visas United State(VisasUS) proporciona servicios de asesoramiento y apoyo para ayudar a las personas a obtener visas americanas. Los servicios incluyen, pero no se limitan a, la orientación sobre el proceso de solicitud de visas, la revisión de documentación y la preparación para entrevistas consulares.</p>
-                {/**Acápite end */}
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>3. Uso del Sitio</h2>
-                <p className="text-parrafos">a. <strong>Elegibilidad:</strong> Usted debe tener al menos 18 años de edad para utilizar este Sitio y nuestros servicios.</p>
-                <br />
-                <p className="text-parrafos">b. <strong>Registro:</strong> Para utilizar ciertos servicios, puede que se le solicite registrarse y proporcionar información personal. Usted se compromete a proporcionar información veraz, precisa y completa.</p>
-                <br />
-                <p className="text-parrafos">c. <strong>Responsabilidad del Usuario:</strong> Usted es responsable de mantener la confidencialidad de su cuenta y contraseña, y acepta notificar a Visas United State(VisasUS) inmediatamente sobre cualquier uso no autorizado de su cuenta.</p>
-                {/**Acápite end */}
-
-                
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>4. Servicios de Asesoramiento</h2>
-
-                <p className="text-parrafos">a. <strong>Alcance del Servicio: </strong> Visas United State(VisasUS) ofrece asesoramiento basado en la información proporcionada por los usuarios. No garantizamos la obtención de una visa, ya que las decisiones finales dependen de las autoridades consulares.</p>
-
-                <br />
-                <p className="text-parrafos">b. <strong>Revisión de Documentos: </strong> Los servicios de revisión de documentos están diseñados para identificar errores comunes y proporcionar recomendaciones generales.</p>
-                <br />
-                <p className="text-parrafos">c. <strong>Simulaciones de Entrevistas: </strong> Ofrecemos simulaciones de entrevistas consulares para preparar a los solicitantes, sin embargo, no podemos garantizar la aprobación de la visa.</p>
-                {/**Acápite end */}
-
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>5. Tarifas y Pagos</h2>
-
-                <p className="text-parrafos">a. <strong>Estructura de Tarifas:  </strong> Las tarifas por nuestros servicios se detallan en el Sitio y pueden cambiar sin previo aviso.</p>
-
-                <br />
-
-                <p className="text-parrafos">b. <strong>Política de Reembolsos: </strong> Los pagos realizados por los servicios de Visas United State(VisasUS) no son reembolsables, excepto en circunstancias excepcionales según lo determine Visas United State(VisasUS) a su discreción.</p>
-                <br />
-
-                <p className="text-parrafos">c. <strong>Métodos de Pago:  </strong> Aceptamos diversas formas de pago, incluyendo tarjetas de crédito y otros métodos especificados en el Sitio.</p>
-                {/**Acápite end */}
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>6. Privacidad y Protección de Datos</h2>
-
-                <p className="text-parrafos">a. <strong>Recopilación de Datos:   </strong> Recopilamos y utilizamos su información personal conforme a nuestra Política de Privacidad.</p>
-
-                <br />
-
-                <p className="text-parrafos">b. <strong>Uso de Datos:  </strong> Utilizamos su información para proporcionar y mejorar nuestros servicios. No compartiremos su información personal con terceros sin su consentimiento, salvo que sea necesario para cumplir con la ley o proteger nuestros derechos.</p>
-                <br />
-
-                <p className="text-parrafos">c. <strong>Seguridad de Datos:  </strong> Implementamos medidas de seguridad razonables para proteger su información personal contra el acceso no autorizado y la divulgación.</p>
-                {/**Acápite end */}
-
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>7. Conducta del Usuario</h2>
-
-                <p className="text-parrafos">a. <strong>Prohibiciones:   Usted no debe usar el Sitio para: </strong> Recopilamos y utilizamos su información personal conforme a nuestra Política de Privacidad.</p>
-
-                <br />
-
-                <ul className='lista-terminos'>
-                  <li className='elemento-lista'>Enviar o transmitir cualquier contenido ilegal, dañino, amenazante, abusivo, acosador, difamatorio, vulgar, obsceno o de otra manera objetable.</li>
-                  <li className='elemento-lista'>Imponer una carga irrazonable o desproporcionadamente grande en nuestra infraestructura.</li>
-                  <li className='elemento-lista'>Intentar interferir con el correcto funcionamiento del Sitio.</li>
-                </ul>
-
-                <p className="text-parrafos">b. <strong>Cumplimiento Legal:   </strong> Usted debe cumplir con todas las leyes y regulaciones locales, estatales, nacionales e internacionales aplicables al usar el Sitio y nuestros servicios.</p>
-                <br />
-
-              
-                {/**Acápite end */}
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>8. Propiedad Intelectual</h2>
-
-                <p className="text-parrafos">a. <strong>Derechos de Autor: </strong> Todo el contenido del Sitio, incluyendo, pero no limitado a, texto, gráficos, logotipos, imágenes y software, es propiedad de Visas United State(VisasUS) o sus licenciantes y está protegido por las leyes de derechos de autor.</p>
-
-                <br />
-
-                <p className="text-parrafos">b. <strong>Marcas Registradas: </strong> Las marcas, logotipos y marcas de servicio (las "Marcas") mostradas en el Sitio son propiedad de Visas United State(VisasUS). No se le concede ningún derecho o licencia para usar cualquier Marca sin el consentimiento previo por escrito de Visas United State(VisasUS).</p>
-                <br />
-
-              
-                {/**Acápite end */}
-
-
-
-                
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>9. Exención de Responsabilidad</h2>
-
-                <p className="text-parrafos">a. <strong>Sin Garantías:  </strong> Visas United State(VisasUS) proporciona el Sitio y los servicios "tal cual" y "según disponibilidad". No ofrecemos garantías de ningún tipo, ya sean expresas o implícitas.</p>
-
-                <br />
-
-                <p className="text-parrafos">b. <strong> Limitación de Garantías: </strong> Visas United State(VisasUS) no garantiza que el Sitio esté libre de errores, virus u otros componentes dañinos.</p>
-                <br />
-
-              
-                {/**Acápite end */}
-
-
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>10. Limitación de Responsabilidad</h2>
-
-                <p className="text-parrafos">a. <strong>Exclusión de Daños:   </strong> En ningún caso, Visas United State(VisasUS) será responsable por daños directos, indirectos, incidentales, especiales, consecuentes o ejemplares que resulten del uso o la imposibilidad de uso del Sitio o los servicios de Visas United State(VisasUS).</p>
-
-                <br />
-
-                <p className="text-parrafos">b. <strong> Capacidad de Reclamo: </strong> La responsabilidad total de Visas United State(VisasUS), en cualquier circunstancia, se limitará a la cantidad pagada por usted por los servicios.</p>
-                <br />
-
-              
-                {/**Acápite end */}
-
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>11. Indemnización</h2>
-
-                <p className="text-parrafos">Usted acepta indemnizar y mantener indemne a Visas United State(VisasUS), sus afiliados, empleados, agentes y representantes de cualquier reclamación, daño, obligación, pérdida, responsabilidad, costo o deuda, y gasto (incluyendo, pero no limitado a, honorarios de abogados) que surjan del uso indebido del Sitio y los servicios proporcionados.</p>
-
-                <br />
-                {/**Acápite end */}
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>12. Modificaciones de los Términos</h2>
-
-                <p className="text-parrafos">Visas United State(VisasUS) se reserva el derecho de modificar estos Términos en cualquier momento. Cualquier cambio será efectivo inmediatamente después de la publicación en el Sitio. Su uso continuo del Sitio después de la publicación de los cambios constituirá su aceptación de dichos cambios.</p>
-
-                <br />
-                {/**Acápite end */}
-
-
-
-                {/**Acápite start */}
-                <h2 className='titulo-acap'>13. Terminación</h2>
-
-                <p className="text-parrafos">Visas United State(VisasUS) puede, a su discreción, suspender o terminar su acceso al Sitio y los servicios en cualquier momento, con o sin previo aviso, por cualquier razón, incluyendo, sin limitación, el incumplimiento de estos Términos.</p>
-
-                <br />
-                {/**Acápite end */}
-
-
-
-                
-
-
+                {/**Acápite 2 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>2. Descripción del Servicio</h2>
+                    <p className="text-parrafos">
+                        Visas United State (VisasUS) ofrece servicios privados de <strong>evaluación informativa de perfiles migratorios</strong>, con fines exclusivamente educativos y orientativos, basados en la información proporcionada por el usuario.
+                    </p>
+                    <p className="text-parrafos">
+                        Las evaluaciones son realizadas por personal capacitado con amplia experiencia práctica acumulada en el análisis informativo de procesos migratorios, utilizando criterios públicos y de conocimiento general.
+                    </p>
+                    <p className="text-parrafos text-destacado">
+                        El servicio NO constituye asesoría legal, opinión jurídica, representación migratoria ni gestión de trámites de visa.
+                    </p>
+                    <p className="text-parrafos">
+                        Visas United State (VisasUS) no garantiza la aprobación de ninguna solicitud de visa, ya que las decisiones finales corresponden exclusivamente a las autoridades consulares del Gobierno de los Estados Unidos.
+                    </p>
+                </div>
+                {/**Acápite 2 end */}
+
+                {/**Acápite 3 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>3. Metodología de Evaluación</h2>
+                    <p className="text-parrafos">
+                        Las evaluaciones se realizan utilizando referencias informativas basadas en criterios públicos y de conocimiento general relacionados con la legislación migratoria de los Estados Unidos, incluyendo disposiciones comúnmente conocidas como la sección 214(b) de la Ley de Inmigración y Nacionalidad (INA).
+                    </p>
+                    <p className="text-parrafos">
+                        Dichas referencias se utilizan únicamente con fines informativos y educativos, y no constituyen interpretación legal ni asesoría jurídica de ningún tipo.
+                    </p>
+                </div>
+                {/**Acápite 3 end */}
+
+                {/**Acápite 4 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>4. Uso del Sitio</h2>
+                    
+                    <div className="subseccion">
+                        <p className="text-parrafos">
+                            <strong>a. Elegibilidad</strong>
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            Debe tener al menos 18 años de edad para utilizar el Sitio y los servicios.
+                        </p>
+                    </div>
+
+                    <div className="subseccion">
+                        <p className="text-parrafos">
+                            <strong>b. Información del Usuario</strong>
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            El usuario se compromete a proporcionar información veraz, completa y actualizada. Visas United State (VisasUS) no será responsable por evaluaciones basadas en información incorrecta o incompleta suministrada por el usuario.
+                        </p>
+                    </div>
+
+                    <div className="subseccion">
+                        <p className="text-parrafos">
+                            <strong>c. Responsabilidad del Usuario</strong>
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            El usuario es responsable del uso adecuado del Sitio y de cualquier acción realizada desde su cuenta.
+                        </p>
+                    </div>
+                </div>
+                {/**Acápite 4 end */}
+
+                {/**Acápite 5 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>5. Tarifas y Pagos</h2>
+                    
+                    <div className="subseccion">
+                        <p className="text-parrafos">
+                            <strong>a. Estructura de Tarifas</strong>
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            Las tarifas aplicables a los servicios se muestran claramente antes de realizar el pago y pueden ser modificadas sin previo aviso.
+                        </p>
+                    </div>
+
+                    <div className="subseccion">
+                        <p className="text-parrafos">
+                            <strong>b. Procesamiento de Pagos</strong>
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            Los pagos son procesados a través de plataformas de terceros autorizadas.
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            Para determinadas transacciones, los pagos pueden ser procesados por un Merchant of Record, quien actúa como vendedor legal ante el cliente.
+                        </p>
+                    </div>
+
+                    <div className="subseccion">
+                        <p className="text-parrafos">
+                            <strong>c. Política de Reembolsos</strong>
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            Debido a la naturaleza digital, personalizada e inmediata del servicio, los pagos no son reembolsables una vez que la evaluación ha sido elaborada y entregada.
+                        </p>
+                        <p className="text-parrafos text-indentado">
+                            No obstante, podrán considerarse reembolsos en casos de fallas técnicas comprobables que impidan la correcta entrega del servicio.
+                        </p>
+                    </div>
+                </div>
+                {/**Acápite 5 end */}
+
+                {/**Acápite 6 start */}
+                <div className="seccion-terminos seccion-importante">
+                    <h2 className='titulo-acap'>6. No Afiliación Gubernamental</h2>
+                    <p className="text-parrafos text-destacado">
+                        Visas United State (VisasUS) es una entidad privada independiente y NO está afiliada, asociada, autorizada ni respaldada por el Gobierno de los Estados Unidos, el Departamento de Estado, embajadas, consulados ni ninguna agencia gubernamental.
+                    </p>
+                </div>
+                {/**Acápite 6 end */}
+
+                {/**Acápite 7 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>7. Privacidad y Protección de Datos</h2>
+                    <p className="text-parrafos">
+                        El uso de la información personal del usuario se rige por nuestra Política de Privacidad, la cual forma parte integral de estos Términos.
+                    </p>
+                    <p className="text-parrafos">
+                        Implementamos medidas de seguridad razonables para proteger la información proporcionada por los usuarios.
+                    </p>
+                </div>
+                {/**Acápite 7 end */}
+
+                {/**Acápite 8 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>8. Propiedad Intelectual</h2>
+                    <p className="text-parrafos">
+                        Todo el contenido del Sitio, incluyendo textos, gráficos, logotipos, informes, software y materiales, es propiedad de Visas United State (VisasUS) o de sus licenciantes y está protegido por las leyes de propiedad intelectual aplicables.
+                    </p>
+                </div>
+                {/**Acápite 8 end */}
+
+                {/**Acápite 9 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>9. Exención de Garantías</h2>
+                    <p className="text-parrafos">
+                        El Sitio y los servicios se proporcionan "tal cual" y "según disponibilidad".
+                    </p>
+                    <p className="text-parrafos">
+                        Visas United State (VisasUS) no garantiza que el Sitio esté libre de errores, interrupciones o componentes dañinos.
+                    </p>
+                </div>
+                {/**Acápite 9 end */}
+
+                {/**Acápite 10 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>10. Limitación de Responsabilidad</h2>
+                    <p className="text-parrafos">
+                        En ningún caso Visas United State (VisasUS) será responsable por daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o imposibilidad de uso del Sitio o los servicios.
+                    </p>
+                    <p className="text-parrafos">
+                        La responsabilidad total, en cualquier caso, se limitará al monto efectivamente pagado por el usuario por el servicio adquirido.
+                    </p>
+                </div>
+                {/**Acápite 10 end */}
+
+                {/**Acápite 11 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>11. Indemnización</h2>
+                    <p className="text-parrafos">
+                        El usuario acepta indemnizar y mantener indemne a Visas United State (VisasUS), sus afiliados, empleados y representantes frente a cualquier reclamación derivada del uso indebido del Sitio o del incumplimiento de estos Términos.
+                    </p>
+                </div>
+                {/**Acápite 11 end */}
+
+                {/**Acápite 12 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>12. Modificaciones</h2>
+                    <p className="text-parrafos">
+                        Visas United State (VisasUS) se reserva el derecho de modificar estos Términos en cualquier momento.
+                    </p>
+                    <p className="text-parrafos">
+                        Las modificaciones entrarán en vigor desde su publicación en el Sitio.
+                    </p>
+                </div>
+                {/**Acápite 12 end */}
+
+                {/**Acápite 13 start */}
+                <div className="seccion-terminos">
+                    <h2 className='titulo-acap'>13. Terminación</h2>
+                    <p className="text-parrafos">
+                        Visas United State (VisasUS) podrá suspender o terminar el acceso al Sitio y a los servicios en caso de incumplimiento de estos Términos o por razones operativas o legales.
+                    </p>
+                </div>
+                {/**Acápite 13 end */}
+
+                {/**Acápite 14 start */}
+                <div className="seccion-terminos seccion-final">
+                    <h2 className='titulo-acap'>14. Operador Legal</h2>
+                    <p className="text-parrafos">
+                        Visas United State (VisasUS) es una marca comercial operada por <strong>NEFTECH SOLUTIONS S.R.L.</strong>, entidad legalmente constituida y responsable de la prestación del servicio.
+                    </p>
+                </div>
+                {/**Acápite 14 end */}
 
             </div>
          </div>

@@ -9,22 +9,24 @@
 
 .cont-izquerda-azul{
     background-color: var(--azul);
-    height: calc(30px + 35vw);
+    /* height: calc(30px + 35vw); */
     min-height: 20rem;
-    max-height: 40rem;
+
     width: 55%;
     border-top-left-radius:min(12px + 12vw, 40px); 
     border-bottom-left-radius:min(12px + 12vw, 40px); 
+}
 
-
+.cont-zona-visible-izq{
+        width: 86%;
 }
 
 .cont-derecha-blanca{
     position: relative;
     background: linear-gradient(150deg, #f3f3f3, #ffffff, #ffffff, #f3f3f3);
-    height: calc(30px + 35vw);
+    /* height: calc(30px + 35vw); */
     min-height: 20rem;
-    max-height: 40rem;
+
     border-radius: min(12px + 12vw, 40px);
     
         /**¿Quiza deba colocar el max?*/
@@ -40,33 +42,106 @@
 .cont-texto-mural-izquierda{
   
     width: 70%;
-    padding: calc(10px + 3vw);
+    padding: calc(10px + 2vw);
+    padding-bottom: calc(5px + 1vw);
 }
 
 .cont-texto-mural-izquierda  h1{
     font-family: 'Myriad-Pro-Bold-Condesed';
     font-size: clamp(18px, (2px + 2vw), 50px);
     color: white;
+    margin-bottom: 10px;
 }
 .cont-texto-mural-izquierda  p{
     font-family: 'Lato';
     font-size: clamp(12px, (1px + 1.2vw), 15px);
-    line-height: clamp(26px, (2px + 2vw), 30px);
+    line-height: clamp(22px, (2px + 2vw), 26px);
     color: white;
-
-
+    margin: 0;
 
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* Cambiar a la cantidad de líneas deseada */
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+/* ===== BADGES INFORMATIVOS DE PRECIOS/MODALIDADES ===== */
+.cont-precios-modalidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: clamp(12px, 1.5vw, 18px);
+    padding: 0 calc(10px + 2vw);
+    margin-bottom: calc(10px + 1vw);
+}
+
+.cont-card-modalidades {
+    display: flex;
+    gap: clamp(8px, 1.2vw, 15px);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-modalidad {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: clamp(8px, 1.2vw, 14px) clamp(12px, 1.5vw, 18px);
+    display: inline-flex;
+    align-items: center;
+    gap: clamp(6px, 0.8vw, 10px);
+    position: relative;
+    pointer-events: none; /* Indica visualmente que no es clickeable */
+    flex: 1;
+}
+
+.card-modalidad-destacada {
+    background: rgba(241, 134, 61, 0.12);
+    border-color: rgba(241, 134, 61, 0.35);
+}
+
+.modalidad-etiqueta {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: var(--mamei);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(8px, 0.7vw, 10px);
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.modalidad-titulo {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(10px, 0.9vw, 12px);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.modalidad-precio {
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(20px, 2.2vw, 30px);
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.modalidad-tiempo {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(8px, 0.75vw, 11px);
+    color: rgba(255, 255, 255, 0.65);
+    white-space: nowrap;
 }
 
 .cont-btn-mural {
     display: flex;
-    width: 80%;
-    justify-content: center;
 }
 
 
@@ -110,6 +185,8 @@
 
    
 }
+
+/* ===== RESPONSIVE ===== */
 @media (max-width:660px){
 
     .cont-izquerda-azul{
@@ -132,6 +209,396 @@
     .cont-btn2-mural {
         display: flex;
     }
+
+    .cont-beneficios-mural {
+        display: none;
+    }
+}
+
+/* ===== BENEFICIOS EN EL MURAL ===== */
+.cont-beneficios-mural {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(6px, 1vw, 10px);
+    margin-bottom: clamp(12px, 2vw, 18px);
+    padding: 0 calc(10px + 2vw);
+}
+
+.beneficio-item {
+    display: flex;
+    align-items: center;
+    gap: clamp(8px, 1vw, 12px);
+}
+
+.beneficio-icono {
+    color: var(--mamei, #f1863d);
+    font-size: clamp(14px, 1.5vw, 18px);
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.beneficio-texto {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(11px, 1vw, 13px);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.4;
+}
+
+/* ===== BENEFICIOS EN EL MURAL ===== */
+.cont-beneficios-mural {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(6px, 1vw, 10px);
+    margin-bottom: clamp(12px, 2vw, 18px);
+    padding: 0 calc(10px + 2vw);
+}
+
+.beneficio-item {
+    display: flex;
+    align-items: center;
+    gap: clamp(8px, 1vw, 12px);
+}
+
+.beneficio-icono {
+    color: var(--mamei, #f1863d);
+    font-size: clamp(14px, 1.5vw, 18px);
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.beneficio-texto {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(11px, 1vw, 13px);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.4;
+}
+
+/* ===== ESTADÍSTICAS ===== */
+.cont-estadisticas-mural {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: clamp(15px, 2vw, 25px);
+    margin: clamp(40px, 6vw, 60px) 0;
+    padding: clamp(25px, 4vw, 40px);
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    border-radius: clamp(12px, 2vw, 20px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.estadistica-card {
+    text-align: center;
+    padding: clamp(15px, 2vw, 20px);
+    background: white;
+    border-radius: 12px;
+    border: 2px solid #e8e8e8;
+    transition: all 0.3s ease;
+}
+
+.estadistica-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--azul, #0066cc);
+    box-shadow: 0 8px 20px rgba(0, 102, 204, 0.15);
+}
+
+.estadistica-numero {
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(32px, 4vw, 48px);
+    color: var(--azul, #0066cc);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: clamp(6px, 1vw, 10px);
+}
+
+.estadistica-texto {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(12px, 1.2vw, 15px);
+    color: #666;
+    font-weight: 500;
+}
+
+/* ===== SERVICIOS RELACIONADOS ===== */
+.cont-servicios-relacionados {
+    margin: clamp(50px, 7vw, 80px) 0;
+}
+
+.titulo-servicios-relacionados {
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(24px, 3.5vw, 40px);
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: clamp(30px, 4vw, 45px);
+}
+
+.grid-servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: clamp(20px, 3vw, 30px);
+}
+
+.servicio-card {
+    background: white;
+    padding: clamp(25px, 3vw, 35px);
+    border-radius: clamp(12px, 2vw, 16px);
+    border: 2px solid #e8e8e8;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.servicio-card:hover {
+    border-color: var(--azul, #0066cc);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 102, 204, 0.15);
+}
+
+.servicio-icono {
+    font-size: clamp(36px, 5vw, 48px);
+    margin-bottom: clamp(12px, 2vw, 16px);
+}
+
+.servicio-titulo {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(16px, 2vw, 20px);
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: clamp(10px, 1.5vw, 14px);
+}
+
+.servicio-descripcion {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(13px, 1.4vw, 15px);
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: clamp(15px, 2vw, 20px);
+}
+
+.servicio-link {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(13px, 1.4vw, 15px);
+    color: var(--azul, #0066cc);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.servicio-link:hover {
+    color: var(--mamei, #f1863d);
+}
+
+/* ===== PROCESO ===== */
+.cont-proceso-mural {
+    margin: clamp(50px, 7vw, 80px) 0;
+    padding: clamp(35px, 5vw, 50px);
+    background: linear-gradient(135deg, #f0f7ff, #e3f2fd);
+    border-radius: clamp(12px, 2vw, 20px);
+}
+
+.titulo-proceso {
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(24px, 3.5vw, 40px);
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: clamp(35px, 5vw, 50px);
+}
+
+.grid-proceso {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: clamp(25px, 3vw, 35px);
+}
+
+.paso-item {
+    text-align: center;
+    position: relative;
+}
+
+.paso-numero {
+    width: clamp(50px, 7vw, 70px);
+    height: clamp(50px, 7vw, 70px);
+    background: var(--azul, #0066cc);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    margin: 0 auto clamp(15px, 2vw, 20px);
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+}
+
+.paso-titulo {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(15px, 1.8vw, 18px);
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: clamp(8px, 1.2vw, 12px);
+}
+
+.paso-descripcion {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(13px, 1.4vw, 15px);
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ===== TESTIMONIOS ===== */
+.cont-testimonios-mural {
+    margin: clamp(50px, 7vw, 80px) 0;
+}
+
+.titulo-testimonios {
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(24px, 3.5vw, 40px);
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: clamp(30px, 4vw, 45px);
+}
+
+.grid-testimonios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: clamp(20px, 3vw, 30px);
+}
+
+.testimonio-card {
+    background: white;
+    padding: clamp(25px, 3vw, 35px);
+    border-radius: clamp(12px, 2vw, 16px);
+    border-left: 4px solid var(--mamei, #f1863d);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.testimonio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.testimonio-estrellas {
+    color: #ffc107;
+    font-size: clamp(16px, 2vw, 20px);
+    margin-bottom: clamp(12px, 2vw, 16px);
+}
+
+.testimonio-texto {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(13px, 1.4vw, 15px);
+    color: #444;
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: clamp(12px, 2vw, 16px);
+}
+
+.testimonio-autor {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(12px, 1.3vw, 14px);
+    color: #666;
+    font-weight: 600;
+}
+
+/* ===== CTA FINAL ===== */
+.cont-cta-final {
+    margin: clamp(50px, 7vw, 80px) 0 clamp(30px, 4vw, 40px);
+    padding: clamp(40px, 6vw, 60px);
+    background: linear-gradient(135deg, var(--azul, #0066cc), #0052a3);
+    border-radius: clamp(12px, 2vw, 20px);
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 102, 204, 0.3);
+}
+
+.cta-titulo {
+    font-family: 'Myriad-Pro-Bold-Condesed', sans-serif;
+    font-size: clamp(26px, 4vw, 44px);
+    color: white;
+    margin-bottom: clamp(15px, 2vw, 20px);
+}
+
+.cta-texto {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(14px, 1.6vw, 18px);
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto clamp(25px, 3vw, 35px);
+}
+
+.cta-botones {
+    display: flex;
+    gap: clamp(12px, 2vw, 20px);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-cta-principal {
+    background-color: var(--mamei, #f1863d);
+    border: none;
+    font-size: clamp(14px, 1.6vw, 17px);
+    padding: clamp(14px, 2vw, 18px) clamp(28px, 3.5vw, 40px);
+}
+
+.btn-cta-principal:hover {
+    background-color: #e07428;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(241, 134, 61, 0.4);
+}
+
+.btn-cta-secundario {
+    background-color: white;
+    color: var(--azul, #0066cc);
+    border: 2px solid white;
+    font-size: clamp(14px, 1.6vw, 17px);
+    padding: clamp(14px, 2vw, 18px) clamp(28px, 3.5vw, 40px);
+}
+
+.btn-cta-secundario:hover {
+    background-color: transparent;
+    color: white;
+    transform: translateY(-3px);
 }
 
 
+.expand-btn-mural{
+       font-family: 'Lato';
+    font-weight: 700;
+    border: none;
+    padding-left: min(12px + 12vw, 220px);
+    padding-right: min(12px + 12vw, 220px);
+
+    
+    padding-top: min(12px + 12vw, 15px);
+    padding-bottom: min(12px + 12vw, 15px);
+    border-radius: min(12px + 12vw, 10px);
+    cursor: pointer;
+
+}
+/* ===== RESPONSIVE ADICIONAL ===== */
+@media (max-width: 768px) {
+    .cont-estadisticas-mural {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-servicios,
+    .grid-testimonios {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-proceso {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-botones {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cont-beneficios-mural {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .cont-estadisticas-mural {
+        grid-template-columns: 1fr;
+    }
+}

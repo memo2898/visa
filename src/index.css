@@ -86,7 +86,7 @@ h1 h2 h3 h4 span ul li button p{
 
 .growth:hover{
   transition: all 0.1s;
-  transform: scale(1.08);
+  transform: scale(1.03);
 
 }
 .growth:not(hover){

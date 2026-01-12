@@ -7,6 +7,7 @@ import FrasesSlider  from '../../components/frasesSlider/FrasesSlider'
 import Testimonios from '../../components/testimonios/Testimonios'
 import '../home/Home.css'
 import Footer from '../../components/footer/Footer'
+import ModalCalificate from '../../components/modalCalificate/ModalCalificate'
 
 
 function Home() {
@@ -15,6 +16,11 @@ function Home() {
   return (
  <>
 
+    {/** Modal de Califícate Ahora */}
+    <ModalCalificate 
+      delay={0}              // milisegundos (0 = inmediato, 2500 = 2.5 segundos, etc.)
+      showOnlyOnce={false}   // true = solo primera visita, false = siempre
+    />
 
     {/** Seccion 1 - Header*/}
         <Header/>
